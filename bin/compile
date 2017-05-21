@@ -6,5 +6,5 @@ set -e
 echo "-----> Found a .buildpack-symlink file"
 
 echo Setting symlinks
-ln -s client/app $1/public 
+ln -s /app/.apt/usr/lib/x86_64-linux-gnu/mesa/libGL.so.1 /usr/lib/libGL.so.1
 
