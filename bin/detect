@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
+# bin/detect <build-dir>
 
-if [ -f $1/.buildpack-symlink ]; then
-  echo "Detect symlink buildpack"
-  exit 0
-else
-  echo "no .buildpack-symlink file"
-  exit 1
-fi
+echo "Symlink"
+exit 0
